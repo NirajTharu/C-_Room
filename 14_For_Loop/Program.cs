@@ -11,7 +11,7 @@ namespace For_Loop
             {
                 for (int j = 1; j <= i; j++)
                 {
-                    Console.Write("* ");
+                    Console.Write("*");
                 }
                 Console.Write("\n");
             }
