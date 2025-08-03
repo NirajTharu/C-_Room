@@ -1,4 +1,6 @@
 ﻿// About the multidimensional array 
+// [,]-> Two dimensional array 
+// Three dimensional array -> [ , , ]
 using System;
 namespace MultiDimensioanl
 {
