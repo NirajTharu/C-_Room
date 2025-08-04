@@ -7,8 +7,7 @@ namespace MultiDimensioanl
     class Program
     {
         static void Main(string[] args)
-        {
-            int[,] numbers = { { 10, 101, 111, 132 }, { 12, 13, 14, 15 } };
+        {           int[,] numbers = { { 10, 101, 111 }, { 12, 13, 14 } };
             foreach (int i in numbers)
             {
                 Console.WriteLine(i);
