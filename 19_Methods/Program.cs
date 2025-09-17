@@ -1,5 +1,6 @@
 ﻿// About the methods in the c# 
 // Method aslo know as  function takes input or inputs(arguments)
+// When a parameter is passed to the method, it is called an argument.
 using System;
 namespace methods
 {
