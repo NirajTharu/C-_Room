@@ -6,10 +6,11 @@ namespace Members
 {
     class P_Name
     {
-        string Program_Name = "C";
-        string Main_Use = "Building Operating System";
+        // Members
+        string Program_Name = "C"; //Fields
+        string Main_Use = "Building Operating System"; //Fields
 
-        public void display()
+        public void display() //Member Function
         {
             Console.WriteLine($"The Name of the program is: {Program_Name} and Main use case is: {Main_Use}");
         }
