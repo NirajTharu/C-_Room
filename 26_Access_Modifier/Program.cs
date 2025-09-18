@@ -4,6 +4,7 @@
 // private : can be access within the same class
 // protected : code can be acces from the same class or inherited class
 // internal : code is accessible form its own assembly
+// file: code is accessible within the file
 using System;
 namespace Access_Modifier
 {
