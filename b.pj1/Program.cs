@@ -6,7 +6,12 @@
 // Your application needs to perform basic math operations to calculate the final grades for each student.
 // Your application needs to output/display each student’s name and final score.
 
-
+// For the grading average of all the subjects
+// 97 - 100    A +
+// 93 - 96     A
+// 90 - 92     A-
+// 87 - 89     B+
+// 83 - 86     B
 
 // initialize variables - graded assignments 
 int currentAssignments = 5;
@@ -46,6 +51,12 @@ float zahirahAverage = zahirahTotal / currentAssignments;
 
 int jeongTotal = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 float jeongAverage = jeongTotal / currentAssignments;
+
+// For the avearage for the calculation of the Grade
+Console.WriteLine(sophiaAverage);
+Console.WriteLine(nicolasAverage);
+Console.WriteLine(zahirahAverage);
+Console.WriteLine(jeongAverage);
 
 Console.WriteLine($@"   
     Student     Grade
